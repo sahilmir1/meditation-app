@@ -1,50 +1,76 @@
-# Welcome to your Expo app 👋
+# Meditation and Affirmations app
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This project is a simple Meditation App developed following a YouTube tutorial. The main goal was to gain a foundational understanding of React Native, including its folder structure and best practices.
 
-## Get started
+<div style="display: flex; justify-content: space-around;">
+  <img src="screenshots/screenshot_1.png" alt="Home Screen" width="200" height="400" />
+  <img src="screenshots/screenshot_2.png" alt="Home Screen" width="200" height="400" />
+  <img src="screenshots/screenshot_3.png" alt="Home Screen" width="200" height="400" />
+</div>
 
-1. Install dependencies
+## <a name="tech-stack">⚙️ Tech Stack</a>
 
-   ```bash
-   npm install
-   ```
+- React Native
+- Expo
+- NativeWind
+- JavaScript
+- TypeScript
 
-2. Start the app
+## <a name="features">🔋 Features</a>
 
-   ```bash
-    npx expo start
-   ```
+👉 **Onboarding Screen**: Welcome screen with a linear gradient to help users get started with the app.
 
-In the output, you'll find options to open the app in a
+👉 **Meditation List Screen with Flat List**: A flat list displays previews of various meditations with corresponding images.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+👉 **Audio Playing Capability**: Control audio playback and manage a meditation countdown timer.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+👉 **Tab Navigation**: Navigate between sections like the Meditation Screen and Affirmations screen with ease using tab navigation.
 
-## Get a fresh project
+👉 **Responsiveness**: Smooth performance and adaptability across various devices and screen sizes for a consistent user experience.
 
-When you're ready, run:
+and many more, including code architecture and reusability
+
+## <a name="quick-start">🤸 Quick Start</a>
+
+Follow these steps to set up the project locally on your machine.
+
+**Prerequisites**
+
+Make sure you have the following installed on your machine:
+
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en)
+- [npm](https://www.npmjs.com/) (Node Package Manager)
+
+**Cloning the Repository**
 
 ```bash
-npm run reset-project
+git clone https://github.com/stevenGarciaDev/simple-meditation-app-expo-react-native.git
+cd simple-meditation-app-expo-react-native
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+**Installation**
 
-## Learn more
+Install the project dependencies using npm:
 
-To learn more about developing your project with Expo, look at the following resources:
+```bash
+npm install
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+**Running the Project**
 
-## Join the community
+```bash
+npx expo start
+```
 
-Join our community of developers creating universal apps.
+**Expo Go**
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Download the [Expo Go](https://expo.dev/go) app onto your device, then use it to scan the QR code from Terminal and run.
+
+**iOS Simulator**
+
+Navigate to the [Expo documentation](https://docs.expo.dev/workflow/ios-simulator/) to learn how to install and run your application on an iOS Simulator for local development.
+
+**Android Emulator**
+
+Navigate to the [Expo documentation](https://docs.expo.dev/workflow/android-studio-emulator/) to learn how to install and run your application on an Android Emulator for local development.

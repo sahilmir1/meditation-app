@@ -3,9 +3,9 @@
 This project is a simple Meditation App developed following a YouTube tutorial. The main goal was to gain a foundational understanding of React Native, including its folder structure and best practices.
 
 <div style="display: flex; justify-content: space-around;">
-  <img src="screenshots/screenshot_1.png" alt="Home Screen" width="200" height="400" />
-  <img src="screenshots/screenshot_2.png" alt="Home Screen" width="200" height="400" />
-  <img src="screenshots/screenshot_3.png" alt="Home Screen" width="200" height="400" />
+  <img src="screenshots/Screenshot_1.png" alt="Home Screen" width="200" height="400" />
+  <img src="screenshots/Screenshot_2.png" alt="Home Screen" width="200" height="400" />
+  <img src="screenshots/Screenshot_3.png" alt="Home Screen" width="200" height="400" />
 </div>
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
